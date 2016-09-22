@@ -1,0 +1,54 @@
+
+
+.general {
+    position: absolute;
+
+height: 400px;
+width: 700px;
+border: 2px solid black;
+left: 350px;
+top: 150px;
+overflow: hidden;
+
+
+}
+
+
+
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    z-index: 1000;
+}
+
+
+.images {
+    height: 400px;
+    width:700px;
+
+}
+
+#front-pic {
+position:absolute;
+overflow: hidden;
+z-index: 100;
+top:0;
+width: 350px;
+
+
+
+}
+
+#back-pic {
+position:absolute;
+z-index: 10;
+top:0;
+width: 350px;
+
+
+}
