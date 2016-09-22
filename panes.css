@@ -1,19 +1,14 @@
 
 
 .general {
-    position: absolute;
-
+position: absolute;
 height: 400px;
 width: 700px;
 border: 2px solid black;
 left: 350px;
 top: 150px;
 overflow: hidden;
-
-
 }
-
-
 
 
 .line {
@@ -36,12 +31,10 @@ overflow: hidden;
 #front-pic {
 position:absolute;
 overflow: hidden;
+
 z-index: 100;
 top:0;
 width: 350px;
-
-
-
 }
 
 #back-pic {
@@ -49,6 +42,4 @@ position:absolute;
 z-index: 10;
 top:0;
 width: 350px;
-
-
 }
